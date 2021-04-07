@@ -1,0 +1,14 @@
+{
+  "name": "@mykaelo/babel-preset-mykaelo-node",
+  "version": "1.0.0",
+  "description": "Default Babel Preset for Packages",
+  "author": "Miguel Robres <miguel.angel.robres@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/preset-env": "^7.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14"
+  }
+}
