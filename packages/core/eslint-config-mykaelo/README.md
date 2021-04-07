@@ -1,0 +1,2 @@
+# `@mykaelo/eslint-config-mykaelo`
+

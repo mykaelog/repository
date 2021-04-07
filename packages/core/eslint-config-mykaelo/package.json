@@ -1,0 +1,12 @@
+{
+  "name": "@mykaelo/eslint-config-mykaelo",
+  "version": "1.0.0",
+  "description": "Eslint Config Based on Google Standarts",
+  "author": "Miguel Robres <miguel.angel.robres@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
