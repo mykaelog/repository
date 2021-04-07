@@ -1,0 +1,22 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "Monorepository to manage every single project",
+  "author": "Miguel Robres <miguel.angel.robres@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/core/*",
+    "packages/modules/*",
+    "packages/utils/*"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "lerna": "^4.0.0"
+  }
+}
