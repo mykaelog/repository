@@ -3,3 +3,4 @@ lerna-*
 coverage
 lib
 /**/yarn.lock
+.DS_Store
