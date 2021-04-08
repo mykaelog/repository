@@ -1,0 +1,29 @@
+{
+  "name": "@mykaelo/create-server-express",
+  "version": "1.0.0",
+  "description": "Create n Express Server with options given",
+  "author": "Miguel Robres <miguel.angel.robres@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "clean": "rimraf ./lib",
+    "build": "babel ./src --out-dir ./lib --ignore ./src/**/*.spec.js",
+    "prepublish": "yarn run test && yarn run clean && yarn run build"
+  },
+  "dependencies": {
+    "@mykaelo/utils-env": "^1.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "morgan": "^1.10.0",
+    "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@mykaelo/babel-preset-mykaelo-node": "^1.0.0",
+    "@mykaelo/eslint-config-mykaelo": "^1.0.0",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "supertest": "^6.1.3"
+  }
+}
