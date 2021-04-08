@@ -1,0 +1,22 @@
+{
+  "name": "@mykaelo/utils-env",
+  "version": "1.0.0",
+  "description": "Util functions for enironment",
+  "author": "Miguel Robres <miguel.angel.robres@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "exit 0",
+    "clean": "rimraf ./lib",
+    "build": "babel ./src --out-dir ./lib --ignore \"*.spec.js,*.test.js\"",
+    "prepublish": "yarn run test && yarn run clean && yarn run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@mykaelo/babel-preset-mykaelo-node": "^1.0.0",
+    "@mykaelo/eslint-config-mykaelo": "^1.0.0",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@mykaelo/eslint-config-mykaelo"
+  ]
+}
