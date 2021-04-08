@@ -2,3 +2,4 @@ node_modules
 lerna-*
 coverage
 lib
+/**/yarn.lock
